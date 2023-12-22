@@ -87,7 +87,7 @@ class Liman:
                         gemi.yukleme = True
                         print(
                             f"{self.t}. dakikada {gemi.numara} numaralı gemiye {tir.plaka} plakalı TIRın yükü "
-                            f"yüklendi. ({tir.ulke})")
+                            f"yüklendi. ({tir.ulke}) ({tir.maliyet}₺)")
                     else:
                         self.istif_alani_2.append(tir)
                         self.istif_alani_2_yuk += tir.yuk
